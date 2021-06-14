@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 30px;
+    background-image: url(https://wallpaperaccess.com/full/187161.jpg);
+    background-repeat: no-repeat;
+    color: yellow;
+}
+
+#add-course-text {
+    margin: 20px 0;
+}
+
+#name {
+    padding: 0 173px;
+}
+
+#desc {
+    display: block;
+    margin: 20px 0;
+}
+
+#add-btn {
+    background: green;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 465px;
+    cursor: pointer;
+}
+
+#add-btn:hover {
+    background: yellow;
+    color: black;
+}
+
+table, th, td {
+    border: 2px solid white;
+    padding: 20px;
+    background: darkgreen;
+}
+
+#centered {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#course-table {
+    text-align: center;
+    margin: 60px;
+}
+
+#remove {
+    color: white;
+}
+
+#remove:hover {
+    color: red;
+}
+
+.messages {
+    color: white;
+}
+
+/* Delete Page */
+
+#del-container {
+    margin: 400px 0;
+}
+
+#delete h1 {
+    margin: 20px 0;
+}
+
+#delete p {
+    font-size: 1.5em;
+}
+
+#delete, #btns {
+    text-align: center;
+    margin: 40px;
+}
+
+.del-btns {
+    margin: 0 20px;
+    color: white;
+    padding: 10px 20px;
+    background: red;
+    text-decoration: none;
+}
+
+.del-btns:hover {
+    background: green;
+    color: yellow;
+}
+
+.del-text {
+    color: white;
+    font-weight: 900;
+}
+
+#del-yes {
+    position: absolute;
+    margin: -29px 35px;
+    border: none;
+    padding: 11px 20px;
+}
